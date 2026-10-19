@@ -1,6 +1,6 @@
 # CS 499 Computer Science Capstone — ePortfolio
 
-**<mark>[Your Name]</mark>** · Southern New Hampshire University · Computer Science
+**Muhammad Hamza** · Southern New Hampshire University · Computer Science
 
 ---
 
@@ -36,9 +36,9 @@ Completing the Computer Science program at SNHU, and this capstone in particular
 
 ### Collaborating in a Team Environment
 
-The artifact at the center of this ePortfolio, LiftLogic, began as a team project in CS 465 with a classmate, **Emiliano Chabolla**. We split ownership along the stack — <mark>[describe the actual split here, e.g., who owned frontend vs. backend, or specific features]</mark> — and had to agree on shared contracts (API shapes, database schema, naming conventions) before either of us could work independently without breaking the other's code. When the course ended, Emiliano gave me permission to continue developing LiftLogic on my own for this capstone, which meant I inherited not just his code but his design decisions, including some I had to later identify as weaknesses during Milestone One's code review.
+The artifact at the center of this ePortfolio, LiftLogic, began as a team project in CS 465 with a classmate, **Emiliano Chabolla**. We split ownership along the stack: I built the core frontend features — the calculator, the workouts page, the homepage, and page transitions — while Emiliano built the backend functionality those features depended on, including the Colosseum ranking system, the leaderboard, and authentication. That split meant we constantly had to agree on shared contracts (API shapes, response formats, what data a page could expect to receive) before either of us could work independently without breaking the other's half of the app. When the course ended, Emiliano gave me permission to continue developing LiftLogic on my own for this capstone, which meant I inherited not just his backend code but his design decisions, including some I had to later identify as weaknesses during Milestone One's code review — for example, the ranking cooldown logic he wrote worked for a single request at a time but had no protection against two simultaneous requests, a gap I closed in Enhancement Three.
 
-Outside this project, <mark>[add your outside-of-ePortfolio team example here — a group project from another course, a job, or any collaborative work]</mark>. That experience reinforced the same lesson this capstone did: a team moves faster when interfaces and expectations are made explicit early, rather than discovered through merge conflicts or runtime errors later.
+That experience shaped how I approach any codebase I didn't fully write myself: read it rigorously before trusting it, and verify behavior with tests rather than assuming the original author covered every case.
 
 ### Communicating with Stakeholders
 
@@ -62,6 +62,6 @@ All three enhancements in this ePortfolio were made to a single artifact, LiftLo
 
 ### Looking Forward
 
-I'm entering the job search aiming for <mark>[your target role/area — e.g., backend development, full-stack, security-focused roles, or "open to full-stack roles while I explore"]</mark>. This capstone is the clearest evidence I have that I can own a real system end to end: find its weaknesses honestly, plan changes that respect existing data and existing users, and verify — with tests, benchmarks, and real-database proof — that those changes actually do what I claim.
+I'm entering the job search aiming for a role as a **web developer**. This capstone is the clearest evidence I have that I can own a real system end to end: find its weaknesses honestly, plan changes that respect existing data and existing users, and verify — with tests, benchmarks, and real-database proof — that those changes actually do what I claim.
 
 *AI use: I used Claude (Anthropic) to help organize and draft this self-assessment and this site from the real details of my enhancement work, which I reviewed and personalized. I also used an AI coding agent (Claude Code), directed and reviewed by me at every step, to carry out the three artifact enhancements described throughout this ePortfolio.*
