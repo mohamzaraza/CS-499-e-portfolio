@@ -14,6 +14,22 @@
 
 ---
 
+## LiftLogic — A Quick Look
+
+<img src="assets/screenshots/home.png" alt="LiftLogic home page" width="800">
+
+*The home page.*
+
+<img src="assets/screenshots/login.png" alt="LiftLogic login page" width="500">
+
+*Login, hardened in Enhancement One with server-side validation and rate limiting, and in Enhancement Three with a database-level case-insensitive email constraint.*
+
+<img src="assets/screenshots/colosseum-ranking.png" alt="The Colosseum chest ranking page" width="500">
+
+*The Colosseum — the strength-ranking feature at the center of Enhancements Two and Three. The tier and score shown here are produced by the redesigned ranking engine (Enhancement Two) and saved through the atomic, concurrency-safe cooldown write proven out in Enhancement Three.*
+
+---
+
 ## Professional Self-Assessment
 
 Completing the Computer Science program at SNHU, and this capstone in particular, has sharpened a specific professional identity for me: I am most effective as a developer who can take over an existing, imperfect codebase, understand it rigorously before changing it, and prove — with real tests and real evidence, not assumptions — that my changes are correct. That identity did not exist in the same form before this course. It was built across three deliberately different kinds of work: hardening the software design of a full-stack web application, redesigning its ranking algorithm, and safely migrating its database schema under a live-data constraint. Together with the rest of my program coursework, these experiences have shaped both what I am good at and what kind of role I want next.
