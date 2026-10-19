@@ -3,7 +3,7 @@
 # Enhancement One Narrative: Software Design and Engineering
 
 
-Name: <mark>\[Your Name\]</mark>
+Name: Muhammad Hamza
 
 CS 499 Computer Science Capstone, Milestone Two
 
@@ -14,8 +14,8 @@ front end with a calorie and protein calculator, a build-your-own-plate
 nutrition tool, an exercise library, an AI coaching chat called KevAi,
 and a tiered strength-ranking feature called the Colosseum, with an
 Express and PostgreSQL back end handling accounts, rankings and the AI
-requests. Emiliano Chabolla and I built it together in CS 465,
-<mark>\[add your term/date, e.g. Fall 2025\]</mark>. He has
+requests. Emiliano Chabolla and I built it together in CS 465, a prior course in this
+program. He has
 since taken a job in the field and gave me his permission to continue
 developing the project on my own for this capstone.
 
@@ -91,8 +91,7 @@ waiting to build the database schema first. I chose data now, database
 later, so this enhancement wasn't blocked on Enhancement Three. Outcome
 2 (communication) is mostly demonstrated through the code review video
 and this narrative rather than through the code
-itself.<mark>\[Adjust this paragraph if you feel
-differently about which outcomes you met.\]</mark>
+itself.
 
 4\. Reflecting on the process
 
@@ -124,8 +123,7 @@ claimed a function had no error handling around it when in fact the
 Express version already handled that case automatically. Checking its
 claims against the real behavior, rather than just trusting the summary,
 turned out to be an important part of the review step for
-me.<mark>\[Replace or add to this paragraph with anything
-else that stood out to you, in your own words.\]</mark>
+me.
 
 The main challenge was the pace: it's tempting to approve a plan quickly
 and move to the next step, and I had to slow down and actually verify

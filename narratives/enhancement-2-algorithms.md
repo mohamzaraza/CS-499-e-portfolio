@@ -3,15 +3,15 @@
 # Enhancement Two Narrative: Algorithms and Data Structures
 
 
-Name: <mark>\[Your Name\]</mark>
+Name: Muhammad Hamza
 
 CS 499 Computer Science Capstone, Milestone Three
 
 1\. What is the artifact?
 
 The artifact is the strength-ranking engine inside LiftLogic, the
-full-stack fitness application I built with Emiliano Chabolla in CS 465
-<mark>\[add your term/date\]</mark>. A lifter enters weight
+full-stack fitness application I built with Emiliano Chabolla in CS 465, a
+prior course in this program. A lifter enters weight
 and repetitions for three lifts, and the server scores them, places the
 lifter in one of eleven tiers from Recruit to Primordial, and feeds a
 leaderboard. Emiliano gave me permission to continue the project for
@@ -129,8 +129,7 @@ that both leaderboards still expose.
 
 I verified the finished work myself by running the server, ranking with
 valid and invalid input, calling the back route that used to return a
-500, and checking both leaderboards. <mark>\[Edit this
-sentence to match what you actually ran.\]</mark>
+500, and checking both leaderboards.
 
 ***AI use:** I used Claude and Claude Code (Anthropic) to plan this
 enhancement, generate the implementation prompts, and carry out the code

@@ -3,7 +3,7 @@
 # Enhancement Three Narrative: Databases
 
 
-Name: <mark>\[Your Name\]</mark>
+Name: Muhammad Hamza
 
 CS 499 Computer Science Capstone, Milestone Four
 
@@ -11,7 +11,7 @@ CS 499 Computer Science Capstone, Milestone Four
 
 The artifact is the PostgreSQL schema and the Prisma data layer behind
 LiftLogic, the full-stack fitness application I built with Emiliano
-Chabolla in CS 465 <mark>\[add your term/date\]</mark>. The
+Chabolla in CS 465, a prior course in this program. The
 schema stores user accounts, strength rankings, rank history and, as of
 this enhancement, the exercise catalog. Emiliano gave me permission to
 continue the project for this capstone, and his original schema is the
@@ -163,9 +163,7 @@ schema changes in the wrong order relative to deploying new code would
 break ranking entirely for a period. I wrote a detailed checklist for
 exactly that situation instead of pretending the job was finished,
 because I think knowing precisely what is left, and why, is as much a
-part of this skill as the migration itself. <mark>\[Edit
-this sentence and the one before it if your own manual verification
-turned up anything different from what's described here.\]</mark>
+part of this skill as the migration itself.
 
 ***AI use:** I used Claude and Claude Code (Anthropic) to plan this
 enhancement, generate the implementation prompts, and carry out the
